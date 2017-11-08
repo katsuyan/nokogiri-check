@@ -10,5 +10,3 @@ def doc(url)
   end
   doc = Nokogiri::HTML.parse(html, nil, charset)
 end
-
-# p doc('https://www.iqon.jp/').title
