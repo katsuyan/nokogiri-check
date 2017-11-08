@@ -5,7 +5,7 @@ bundle exec pry
 
 使い方
 ```
-require './check'
+require './parse'
 
 # do something
 p doc('http://............').title
