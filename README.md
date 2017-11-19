@@ -8,5 +8,5 @@ bundle exec pry
 require './parse'
 
 # do something
-p doc('http://............').title
+p parse('http://............').title
 ```
